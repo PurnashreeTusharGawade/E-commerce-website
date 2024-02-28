@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/dadabc7453.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-image: none;">
+
+    <section id="header" style="margin-bottom:4vh;">
+        <a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </section>
+
+    <h1>Cart</h1>
+    <center>
+        <section id="cart">
+            <table width="90%">
+                <tr>
+                    <th>REMOVE</th>
+                    <th>IMAGE</th>
+                    <th>PRODUCT</th>
+                    <th>PRICE</th>
+                    <th>QUANTITY</th>
+                    <th>SUBTOTAL</th>
+                </tr>
+                <tr>
+                    <td><a><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="img/1.png" alt=""></td>
+                    <td>Vierdo Oversized printed T-Shirt</td>
+                    <td>₹399</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹399</td>
+                </tr>
+            </table>
+        </section>
+    </center>
+    <section id="cart-add">
+        <div id="coupon">
+            <h2>Apply coupon</h2>
+            <input type="text" placeholder="Enter coupon code">
+            <button>Apply</button>
+        </div>
+        <center>
+            <div id="subtotal">
+                <table border="1" cellspacing="0" cellpadding="1px">
+                    <h3>Cart Total</h3><br>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>₹399</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><b>Total</b></td>
+                        <td><b>₹399</b></td>
+                    </tr>
+
+                </table>
+                <button>Proceed to checkout</button>
+            </div>
+        </center>
+    </section>
+
+    <footer id="contact">
+        <div class="col">
+            <img src="img/logo.png" alt="logo">
+            <br><br>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+        </div>
+        <div class="col">
+            <h4>Contact</h4>
+            <p><b>Address: </b>Phoenix market city, Bangalore</p>
+            <p><b>Phone: </b>+91 9876543210</p>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <p>Sign In</p>
+            <p>View Cart</p>
+            <p>Track My Order</p>
+            <p>Help</p>
+        </div>
+    </footer>
+</body>
+
+</html>
